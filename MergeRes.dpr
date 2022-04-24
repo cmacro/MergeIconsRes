@@ -602,8 +602,18 @@ begin
   end;
   cStr := TStringBuilder.Create;
   try
-
-
+    cStr.AppendFormat('// icon size %d x %d', [FWidth, FHeight]);
+    cStr.AppendLine;
+    cStr.AppendFormat('IDISizeWidht_%s = %d;', [sPrefix, FWidth]);
+    cStr.AppendLine;
+    cStr.AppendFormat('IDISizeHeight_%s = %d;', [sPrefix, FHeight]);
+    cStr.AppendLine;
+    cStr.AppendFormat('IDITotalCount_%s = %d;', [sPrefix, count]);
+    cStr.AppendLine;
+    cStr.AppendFormat('IDIColCount_%s = %d;', [sPrefix, FColCnt]);
+    cStr.AppendLine;
+    cStr.AppendFormat('IDIRowCount_%s = %d;', [sPrefix, FRowCnt]);
+    cStr.AppendLine;
     cStr.AppendFormat('IDI_%sNames: array [0..%d] of string = ( ', [sPrefix, count - 1]);
     for I := 0 to count - 1 do
     begin

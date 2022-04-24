@@ -1,6 +1,6 @@
 //
-// 由MergeRes.exe程序自动生成，请不要手动修改。
-// create: 2022/4/21
+// 由MergeRes.exe程序自动生成，不要手动修改，以免重新生成覆盖自定义内容。
+// create: 2022/4/24
 //
 
 IDI_FlagX1AD                         = 0;
@@ -266,22 +266,28 @@ IDI_FlagX1ZM                         = 259;
 IDI_FlagX1ZW                         = 260;
 
 // Image names
-IDI_FlagX1Names: array [0..260] of string = ( 'AD','AE','AF','AG','AI','AL','AM',
-        'AO','AR','AS','AT','AU','AW','AX','AZ','BA','BB','BD','BE','BF','BG','BH',
-        'BI','BJ','BL','BM','BN','BO','BR','BS','BT','BV','BW','BY','BZ','CA','CAF',
-        'CAS','CC','CD','CF','CG','CH','CI','CK','CL','CM','CN','CNA','CO','COC',
-        'CR','CSA','CU','CV','CW','CX','CY','CZ','DE','DJ','DK','DM','DO','DZ','EC',
-        'EE','EG','ER','ES','ET','EU','FI','FJ','FK','FM','FO','FR','GA','GB','GB_ENG',
-        'GB_NIR','GB_SCT','GB_WLS','GB_ZET','GD','GE','GF','GG','GH','GI','GL','GM',
-        'GN','GP','GQ','GR','GS','GT','GU','GW','GY','HK','HM','HN','HR','HT','HU',
-        'ID','IE','IL','IM','IN','IO','IQ','IR','IS','IT','JE','JM','JO','JP','KE',
-        'KG','KH','KI','KM','KN','KP','KR','KW','KY','KZ','LA','LB','LC','LGBT','LI',
-        'LK','LR','LS','LT','LU','LV','LY','MA','MC','MD','ME','MF','MG','MH','MK',
-        'ML','MM','MN','MO','MP','MQ','MR','MS','MT','MU','MV','MW','MX','MY','MZ',
-        'NA','NC','NE','NF','NG','NI','NL','NO','NP','NR','NU','NZ','OM','PA','PE',
-        'PF','PG','PH','PK','PL','PM','PN','PR','PS','PT','PW','PY','QA','RE','RO',
-        'RS','RU','RW','SA','SB','SC','SD','SE','SG','SH','SI','SJ','SK','SL','SM',
-        'SN','SO','SR','SS','ST','SV','SX','SY','SZ','TC','TD','TF','TG','TH','TJ',
-        'TK','TL','TM','TN','TO','TR','TT','TV','TW','TZ','UA','UG','UM','US','US_CA',
-        'UY','UZ','VA','VC','VE','VG','VI','VN','VU','WF','WS','WW','XK','YE','YT',
-        'ZA','ZM','ZW');
+// icon size 21 x 15
+IDISizeWidht_FlagX1 = 21;
+IDISizeHeight_FlagX1 = 15;
+IDITotalCount_FlagX1 = 261;
+IDIColCount_FlagX1 = 10;
+IDIRowCount_FlagX1 = 27;
+IDI_FlagX1Names: array [0..260] of string = ( 
+        'AD','AE','AF','AG','AI','AL','AM','AO','AR','AS','AT','AU','AW','AX','AZ',
+        'BA','BB','BD','BE','BF','BG','BH','BI','BJ','BL','BM','BN','BO','BR','BS',
+        'BT','BV','BW','BY','BZ','CA','CAF','CAS','CC','CD','CF','CG','CH','CI','CK',
+        'CL','CM','CN','CNA','CO','COC','CR','CSA','CU','CV','CW','CX','CY','CZ',
+        'DE','DJ','DK','DM','DO','DZ','EC','EE','EG','ER','ES','ET','EU','FI','FJ',
+        'FK','FM','FO','FR','GA','GB','GB_ENG','GB_NIR','GB_SCT','GB_WLS','GB_ZET',
+        'GD','GE','GF','GG','GH','GI','GL','GM','GN','GP','GQ','GR','GS','GT','GU',
+        'GW','GY','HK','HM','HN','HR','HT','HU','ID','IE','IL','IM','IN','IO','IQ',
+        'IR','IS','IT','JE','JM','JO','JP','KE','KG','KH','KI','KM','KN','KP','KR',
+        'KW','KY','KZ','LA','LB','LC','LGBT','LI','LK','LR','LS','LT','LU','LV','LY',
+        'MA','MC','MD','ME','MF','MG','MH','MK','ML','MM','MN','MO','MP','MQ','MR',
+        'MS','MT','MU','MV','MW','MX','MY','MZ','NA','NC','NE','NF','NG','NI','NL',
+        'NO','NP','NR','NU','NZ','OM','PA','PE','PF','PG','PH','PK','PL','PM','PN',
+        'PR','PS','PT','PW','PY','QA','RE','RO','RS','RU','RW','SA','SB','SC','SD',
+        'SE','SG','SH','SI','SJ','SK','SL','SM','SN','SO','SR','SS','ST','SV','SX',
+        'SY','SZ','TC','TD','TF','TG','TH','TJ','TK','TL','TM','TN','TO','TR','TT',
+        'TV','TW','TZ','UA','UG','UM','US','US_CA','UY','UZ','VA','VC','VE','VG',
+        'VI','VN','VU','WF','WS','WW','XK','YE','YT','ZA','ZM','ZW');
